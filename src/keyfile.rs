@@ -886,7 +886,7 @@ impl Keyfile {
                 KeyFileError::MetadataError(format!("Failed to get metadata for file: {}.", e))
             })?
             .permissions();
-        permissions.set_mode(0o600); // just for owner
+        //permissions.set_mode(0o600); // just for owner
         fs::set_permissions(&self._path, permissions).map_err(|e| {
             KeyFileError::PermissionError(format!("Failed to set permissions: {}.", e))
         })?;
