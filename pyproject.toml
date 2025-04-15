@@ -1,5 +1,5 @@
 [project]
-name = "bittensor-wallet"
+name = "my-bittensor-wallet"
 version = "3.0.8"
 description = ""
 readme = "README.md"
