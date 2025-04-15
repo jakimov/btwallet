@@ -1,5 +1,5 @@
 [package]
-name = "bittensor_wallet"
+name = "my-bittensor_wallet"
 version = "3.0.8"
 edition = "2021"
 
